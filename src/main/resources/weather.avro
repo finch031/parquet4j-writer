@@ -1,0 +1,10 @@
+{"namespace": "weather.avro",
+ "type": "record",
+ "name": "cihon",
+ "fields": [
+     {"name": "city_id", "type": "string"},
+     {"name": "date",  "type": "string"},
+     {"name": "hour", "type": "string"},
+     {"name": "temp", "type": "int"}
+ ]
+}
